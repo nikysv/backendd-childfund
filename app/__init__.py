@@ -38,6 +38,7 @@ def create_app(config_class=None):
         app.config.from_object(config_class)
 
     # Register blueprints and extensions
+       # Register blueprints and extensions
     CORS(app,
         resources={r"/*": {
             "origins": [
@@ -46,8 +47,9 @@ def create_app(config_class=None):
                 "http://localhost:3000", 
                 "http://localhost:3001", 
                 "https://frontend-childfund.onrender.com",
-                "https://lovable.dev",
-                "https://frontend-childfund-2gby9knzj-serratenikoll-gmailcoms-projects.vercel.app/"
+                "https://*.vercel.app",
+                "https://frontend-childfund.vercel.app",
+                "https://lovable.dev"
             ],
             "allow_headers": ["Content-Type", "Authorization", "Accept"],
             "expose_headers": ["Content-Type", "Authorization", "Content-Disposition"],
