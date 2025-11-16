@@ -1,0 +1,14 @@
+flask
+flask-Sqlalchemy
+flask-migrate
+flask-jwt-extended
+flask-cors
+pytz
+python-dotenv
+psycopg2-binary
+SendGrid
+flask-apscheduler
+pandas
+openpyxl
+werkzeug
+gunicorn
