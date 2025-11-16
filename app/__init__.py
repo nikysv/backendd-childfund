@@ -45,7 +45,7 @@ def create_app(config_class=None):
                 "http://localhost:8080",
                 "http://localhost:3000", 
                 "http://localhost:3001", 
-                "https://frontendrollout.onrender.com",
+                "https://frontend-childfund.onrender.com",
                 "https://lovable.dev"
             ],
             "allow_headers": ["Content-Type", "Authorization", "Accept"],
