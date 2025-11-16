@@ -46,7 +46,8 @@ def create_app(config_class=None):
                 "http://localhost:3000", 
                 "http://localhost:3001", 
                 "https://frontend-childfund.onrender.com",
-                "https://lovable.dev"
+                "https://lovable.dev",
+                "https://frontend-childfund-2gby9knzj-serratenikoll-gmailcoms-projects.vercel.app/"
             ],
             "allow_headers": ["Content-Type", "Authorization", "Accept"],
             "expose_headers": ["Content-Type", "Authorization", "Content-Disposition"],
